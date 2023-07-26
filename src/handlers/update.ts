@@ -53,4 +53,5 @@ export const updateUpdate = async (req, res) => {
 		},
 		data: req.body,
 	});
+	res.json({ data: updatedUpdate });
 };
