@@ -51,7 +51,7 @@ router.post(
 	body('productId').exists().isString,
 	() => {}
 );
-//router.delete('/update/:id', () => {});
+router.delete('/update/:id', () => {});
 
 /**
  * updatepoint
