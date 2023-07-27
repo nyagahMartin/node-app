@@ -30,3 +30,4 @@ app.use((err, req, res, next) => {
 	res.json({ message: 'oops there was an error' });
 });
 export default app;
+app;
